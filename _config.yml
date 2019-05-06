@@ -1,18 +1,18 @@
 # Site settings
-title: Francis Blog
-SEOTitle: 夏翌彰的博客 | Francis Blog
+title: Difftime Blog
+SEOTitle:  Difftime Blog
 header-img: img/post-bg-desk.jpg
-email: 361084670@qq.com
+# email: 361084670@qq.com
 description: "Every failure is leading towards success."
-keyword: "Francis, Francis Blog, 夏翌彰的博客, xiayizhang, 夏翌彰"
-url: "http://Francis-Xia.github.io"          # your host, for absolute URL
+keyword: "Difftime Blog"
+url: "http://difftime.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Francis-Xia/Francis-Xia.github.io.git" # you code repository
+github_repo: "https://github.com/difftime/difftime.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/wife_me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+# sidebar-avatar: /img/wife_me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -62,7 +62,7 @@ disqus_username: Francis_Xia
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
   repo: Francis-Xia.github.io    #仓库名称
