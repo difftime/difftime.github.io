@@ -13,9 +13,8 @@ tags:
 
 ---
 
-> 整篇文章Copy from [王环宇大佬](http://www.lamda.nju.edu.cn/wanghy/).
+> 整篇文章Copy from [王环宇](http://www.lamda.nju.edu.cn/wanghy/)。（宇哥超强）
 >
-> ![宇哥NIUBI](../img/Myimg/emoji_1.jpg)
 
 
 
@@ -39,14 +38,14 @@ https://invisible-mirror.net/archives/ncurses/ncurses-5.7.tar.gz
 config设定（最重要的一步）
 
 ```bash
-./configure --prefix=/home/wanghy/software
+./configure --prefix=/home/yuhao/software
 make && make install
 ```
 
 安装好了依赖之后，然后就是安装tmux，下载源码到本地，同样地进入文件夹
 
 ```bash
-./configure --prefix=/home/wanghy/software CFLAGS="-I$HOME/include" LDFLAGS="-L$HOME/lib"
+./configure --prefix=/home/yuhao/software CFLAGS="-I$HOME/include" LDFLAGS="-L$HOME/lib"
 make && make install
 # $HOME 在这里即为我的~/software
 # 由于有的依赖文件在home目录下，所以需要进行后面的一些设定
@@ -64,9 +63,9 @@ make && make install
 
     在全局的动态链接库中没有这个文件，这个文件在本地的lib中，所以在bashrc文件中加入一行
 
-    `export LD_LIBRARY_PATH="/home/wanghy/software/lib/:$LD_LIBRARY_PATH"`
+    `export LD_LIBRARY_PATH="/home/yuhao/software/lib/:$LD_LIBRARY_PATH"`
 
-当一切都安装好了，本地的tmux其实已经可以用了，但如果需要其能够方便地直接使用，需要在bashrc文件中添加路径：`export PATH="/home/wanghy/software/bin/:$PATH"`
+当一切都安装好了，本地的tmux其实已经可以用了，但如果需要其能够方便地直接使用，需要在bashrc文件中添加路径：`export PATH="/home/yuhao/software/bin/:$PATH"`
 
 至此，一切安装就绪，尽情使用tmux！
 
