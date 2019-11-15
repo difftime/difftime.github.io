@@ -22,9 +22,7 @@ tags:
 
 
 
-经过了将近两个小时的努力，终于在Pascal2上配置好了tmux
-
-在安装过程中有很多的问题，主要是由于不是root用户，所以无法直接安装在root环境下，只能在自己的home环境下搭建一个软件安装的地方（我专门用于安装本地软件的位置是`\home\yuhao\software`）在这个位置下有类似的`bin` `include`等
+在服务器安装TMUX的过程中有很多的问题，主要是由于不是root用户，所以无法直接安装在root环境下，只能在自己的home环境下搭建一个软件安装的地方（专门用于安装本地软件的位置是`\home\yuhao\software`）在这个位置下有类似的`bin` `include`等
 
 安装[tmux](https://github.com/tmux/tmux)，有两个依赖，在官网中找到下载地址，下载在服务器中。由于没有root权限，所以需要安装在本地，安装在本地的一个重要操作是：(会自动在目录中生成相应的bin，include等)
 
