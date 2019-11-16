@@ -47,7 +47,7 @@ make && make install
 make && make install
 # $HOME 在这里即为我的~/software
 # 由于有的依赖文件在home目录下，所以需要进行后面的一些设定
-./configure --prefix=/home/yuh/software CFLAGS="-I~/software/include" LDFLAGS="-L~/software/lib"
+./configure --prefix=/home/yuh/software CFLAGS="-I/home/yuh/software/include" LDFLAGS="-L/home/yuh/software/lib"
 make && make install
 ```
 
@@ -55,7 +55,7 @@ make && make install
 
 1. 找不到某个.h文件
 
-    找到这个文件，然后发现其在include下的一个子文件夹中，将其移入上一层文件夹
+    找到这个文件，然后发现其在include下的一个子文件夹中，将其移入上一层文件夹。（在我这里，是term.h,curses.h和ncurses.h）
 
 2. error while loading shared libraries: libevent-2.1.so.6:cannot open shared object file
 
